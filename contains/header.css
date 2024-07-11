@@ -1,0 +1,131 @@
+header{border-bottom:solid thin rgb(255, 255, 255);
+height: 110px;
+display: flex;
+justify-content: space-around;
+}
+
+#div1{ 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.course_btn{
+    border: none;
+    width: 35%; 
+    height: 70%;
+    background: none;
+    color: aliceblue;
+    font-size: large;
+}
+
+svg{color: white;}
+
+.input{
+    border: solid thin rgb(255, 255, 255);
+    width:60%; 
+    height: 40%;
+   background: none;
+   color: aliceblue;
+   font-size: large;
+}
+
+
+
+.btn_search{
+    width: 60px;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    border: none;
+    background: none;
+}
+
+
+
+#div2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content:  space-around;
+}
+
+.ul_header{
+    width: 80%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;}
+
+.il_header{ 
+        list-style: none;
+        font-size: 20px;
+        color: aliceblue;
+}
+
+
+
+#div3{
+height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_heder{
+    width:50px;
+     height:50%;
+    }
+
+.txt_heder{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+#menu-heder{display: none;}
+
+@media screen and (max-width:1000px){
+
+    #div2{display: none;}
+    #div3{width: 40%;}
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    #menu-heder{display: flex;}
+
+
+}
+
+@media screen and (max-width:685px){
+
+    .txt_heder{
+display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#div3{
+    height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

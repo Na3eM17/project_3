@@ -1,0 +1,46 @@
+
+main{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-containor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{display: flex; justify-content: center; color: rgb(255, 255, 255);}
+h1{display: flex; justify-content: center; color: #ffffff;}
+
+#main-containor-butun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-blue{
+    background-color: rgb(14, 0, 77);
+    color: white;
+    height: 55px;
+    width: 305px;}
+
+button{
+    color: rgb(14, 0, 77);
+    height: 55px;
+    width: 305px;
+}
+
+@media  screen and (max-width:350px) {
+h1{font-size: 25px;} 
+h3{font-size: 10px;}
+}
+
+
