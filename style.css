@@ -13,3 +13,27 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+
+#clk{
+    width: 20%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #00000036;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 600px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.mnue-btn{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
